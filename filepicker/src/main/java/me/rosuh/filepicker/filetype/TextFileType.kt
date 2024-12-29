@@ -27,7 +27,7 @@ class TextFileType : FileType {
         }
         val suffix = fileName.substring(fileName.lastIndexOf(".") + 1)
         return when (suffix) {
-            "doc", "docx", "log", "txt", "msg", "odt", "pages", "rtf", "tex", "wpd", "wps" -> {
+            "pdf" -> {
                 true
             }
             else -> {
