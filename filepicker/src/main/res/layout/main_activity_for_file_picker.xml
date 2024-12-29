@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     app:layout_constraintHeight_default="percent"
     app:layout_constraintWidth_default="percent"
-    tools:context=".FilePickerActivity">
+    tools:context="me.rosuh.filepicker.FilePickerActivity">
 
     <RelativeLayout
         android:id="@+id/ll_tool_bar_file_picker"
@@ -31,7 +31,6 @@
             android:layout_toLeftOf="@+id/btn_confirm_file_picker"
             android:text="@string/file_picker_tv_select_all"
             android:textAllCaps="false"
-            android:textColor="?android:attr/textColor"
             android:textSize="16sp" />
 
         <Button
@@ -44,8 +43,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="@string/file_picker_tv_select_done"
-            android:textAllCaps="false"
-            android:textColor="?android:attr/textColorPrimary" />
+            android:textAllCaps="false"/>
 
         <ImageView
             android:id="@+id/btn_go_back_file_picker"
@@ -70,7 +68,6 @@
             android:layout_toEndOf="@id/btn_go_back_file_picker"
             android:layout_toRightOf="@id/btn_go_back_file_picker"
             android:maxLines="1"
-            android:textColor="?android:attr/textColor"
             android:textSize="16sp"
             tools:text="1*" />
     </RelativeLayout>
